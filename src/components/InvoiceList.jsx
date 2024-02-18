@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import StatusButton from "./StatusButton";
 
 function InvoiceList({ invoice }) {
@@ -22,6 +23,7 @@ function InvoiceList({ invoice }) {
               </div>
               <StatusButton status={invoice.status} />
             </div>
+             <Link> <img className="hidden md:inline-block md:pr-6" src="./assets/right-arrow.svg" alt="right-icon" /></Link>
           </li>
         );
       })}

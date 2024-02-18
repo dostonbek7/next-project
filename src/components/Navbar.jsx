@@ -5,7 +5,7 @@ import Theme from "./Theme";
 
 function Navbar() {
   return (
-    <div className="flex items-center lg:flex-col justify-between bg-[#373B53] pr-6 md:pr-8 lg:pr-0 lg:pb-6">
+    <div className="flex items-center lg:rounded-tr-3xl lg:rounded-br-3xl lg:flex-col justify-between bg-[#373B53] pr-6 md:pr-8 lg:pr-0 lg:pb-6">
       <div className="bg-image pt-[22px] pb-[23px] px-[22px] md:px-[25px] md:py-[25px] lg:px-9 lg:py-9">
       <Image src={Logo} alt="Logo image" />
       </div>
