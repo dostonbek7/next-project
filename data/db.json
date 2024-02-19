@@ -12,7 +12,7 @@
       "senderAddress": {
         "street": "19 Union Terrace",
         "city": "London",
-        " ": "E1 3EZ",
+        "postCode": "E1 3EZ",
         "country": "United Kingdom"
       },
       "clientAddress": {
